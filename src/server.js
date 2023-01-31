@@ -20,7 +20,7 @@ client.on('message_create', msg => {
     const fromMe = msg.id.fromMe ?? false;
     const command = msg.body.split(' ')[0];
 
-    if (command === "/fig" && !!fromMe) generateSticker(msg)
+    if (command === "/fig") generateSticker(msg)
 });
 
 client.initialize();
