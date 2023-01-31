@@ -1,0 +1,23 @@
+{
+  "name": "wpp-sticker-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "prod": "node src/server.js"
+  },
+  "author": "Lucas Cefali",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/qrcode-terminal": "^0.12.0",
+    "tsx": "^3.12.2"
+  },
+  "dependencies": {
+    "@fastify/cors": "^8.2.0",
+    "axios": "^1.3.0",
+    "fastify": "^4.12.0",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.19.3"
+  }
+}
